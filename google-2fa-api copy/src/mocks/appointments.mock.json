@@ -1,0 +1,141 @@
+{
+  "success": true,
+  "status": 200,
+  "data": [
+    {
+      "id": "1",
+      "client_name": "Ana Silva",
+      "service": "Esmaltação simples",
+      "date": "2025-09-01",
+      "time": "09:00",
+      "status": "confirmed",
+      "price": 50.0
+    },
+    {
+      "id": "2",
+      "client_name": "Cristiane Oliveira",
+      "service": "Alongamento em gel",
+      "date": "2025-09-01",
+      "time": "10:30",
+      "status": "confirmed",
+      "price": 120.0
+    },
+    {
+      "id": "3",
+      "client_name": "Fernanda Souza",
+      "service": "Banho de gel",
+      "date": "2025-09-01",
+      "time": "13:00",
+      "status": "pending",
+      "price": 90.0
+    },
+    {
+      "id": "4",
+      "client_name": "Juliana Costa",
+      "service": "Spa das mãos + Nail art",
+      "date": "2025-09-01",
+      "time": "15:00",
+      "status": "cancelled",
+      "price": 150.0
+    },
+    {
+      "id": "5",
+      "client_name": "Carla Mendes",
+      "service": "Manicure completa",
+      "date": "2025-09-02",
+      "time": "09:30",
+      "status": "confirmed",
+      "price": 70.0
+    },
+    {
+      "id": "6",
+      "client_name": "Beatriz Lima",
+      "service": "Esmaltação artística",
+      "date": "2025-09-02",
+      "time": "11:00",
+      "status": "pending",
+      "price": 80.0
+    },
+    {
+      "id": "7",
+      "client_name": "Patrícia Gomes",
+      "service": "Blindagem de unhas",
+      "date": "2025-09-02",
+      "time": "14:00",
+      "status": "confirmed",
+      "price": 100.0
+    },
+    {
+      "id": "8",
+      "client_name": "Larissa Rocha",
+      "service": "Alongamento fibra de vidro",
+      "date": "2025-09-02",
+      "time": "16:30",
+      "status": "confirmed",
+      "price": 140.0
+    },
+    {
+      "id": "9",
+      "client_name": "Camila Ferreira",
+      "service": "Remoção de alongamento",
+      "date": "2025-09-03",
+      "time": "09:00",
+      "status": "pending",
+      "price": 60.0
+    },
+    {
+      "id": "10",
+      "client_name": "Isabela Martins",
+      "service": "Pedicure + Spa dos pés",
+      "date": "2025-09-03",
+      "time": "11:00",
+      "status": "confirmed",
+      "price": 110.0
+    },
+    {
+      "id": "11",
+      "client_name": "Renata Alves",
+      "service": "Banho de verniz",
+      "date": "2025-09-03",
+      "time": "14:00",
+      "status": "confirmed",
+      "price": 95.0
+    },
+    {
+      "id": "12",
+      "client_name": "Sofia Andrade",
+      "service": "Esmaltação em gel",
+      "date": "2025-09-04",
+      "time": "10:00",
+      "status": "cancelled",
+      "price": 85.0
+    },
+    {
+      "id": "13",
+      "client_name": "Paula Ribeiro",
+      "service": "Spa completo mãos e pés",
+      "date": "2025-09-04",
+      "time": "13:30",
+      "status": "confirmed",
+      "price": 180.0
+    },
+    {
+      "id": "14",
+      "client_name": "Tatiane Souza",
+      "service": "Nail art personalizada",
+      "date": "2025-09-04",
+      "time": "16:00",
+      "status": "pending",
+      "price": 130.0
+    },
+    {
+      "id": "15",
+      "client_name": "Viviane Carvalho",
+      "service": "Unhas postiças decoradas",
+      "date": "2025-09-05",
+      "time": "09:30",
+      "status": "confirmed",
+      "price": 75.0
+    }
+  ]
+}
