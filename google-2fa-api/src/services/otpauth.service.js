@@ -11,6 +11,7 @@ import {
   UserNotFoundException
 } from '../utils/exceptions/auth.exceptions.js'
 import { requiredFieldsHandler } from '../utils/handlers/requiredFileds.handler.js'
+import { generateTokens } from '../utils/handlers/token.handler.js'
 import { generateBase32Secret } from '../utils/handlers/tokenGeneration.handler.js'
 import * as authMsg from '../utils/messages/auth.messages.js'
 import * as userMsg from '../utils/messages/user.messages.js'
@@ -70,10 +71,25 @@ const otpAuthService = {
         )
       }
 
+      const { accessToken, refreshToken } = generateTokens({
+        id: user._id
+      })
+
       return {
         success: true,
         status: 200,
         tokenValid: isValid,
+        user: {
+          _id: user._id,
+          id: user.id,
+          name: user.name,
+          email: user.email,
+          cnpj: user.cnpj,
+          phone: user.phone,
+          twoFaEnabled: user.two_fa_enabled
+        },
+        accessToken,
+        refreshToken,
         message: authMsg.successMessages.SUCCESS_TOTP_VERIFIED
       }
     } catch (error) {

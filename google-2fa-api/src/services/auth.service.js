@@ -38,6 +38,17 @@ export const authService = {
         }
       }
 
+      if (user.two_fa_enabled) {
+        return {
+          success: true,
+          status: 200,
+          user: {
+            twoFaEnabled: user.two_fa_enabled
+          },
+          message: authMsg.successMessages.SUCCESS_TOTP_AWAITING_VALIDATION
+        }
+      }
+
       const { accessToken, refreshToken } = generateTokens({
         id: user._id
       })

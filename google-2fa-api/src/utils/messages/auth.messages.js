@@ -7,7 +7,8 @@ export const successMessages = {
   // TOTP / 2FA
   SUCCESS_TOTP_ENABLED: 'Autenticação de dois fatores ativada com sucesso',
   SUCCESS_TOTP_DISABLED: 'Autenticação de dois fatores desativada com sucesso',
-  SUCCESS_TOTP_VERIFIED: 'Código de autenticação verificado com sucesso'
+  SUCCESS_TOTP_VERIFIED: 'Código de autenticação verificado com sucesso',
+  SUCCESS_TOTP_AWAITING_VALIDATION: 'Usuário validado com sucesso. Autenticação em dois fatores habilitada, insira o código TOTP'
 }
 
 export const errorMessages = {
