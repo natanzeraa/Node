@@ -4,138 +4,138 @@
   "data": [
     {
       "id": "1",
-      "client_name": "Ana Silva",
-      "service": "Esmaltação simples",
+      "client_name": "Tereza Castilho",
+      "service": "Formatação e instalação de sistema",
       "date": "2025-09-01",
       "time": "09:00",
       "status": "confirmed",
-      "price": 50.0
+      "price": 150.0
     },
     {
       "id": "2",
       "client_name": "Cristiane Oliveira",
-      "service": "Alongamento em gel",
+      "service": "Troca de HD por SSD",
       "date": "2025-09-01",
       "time": "10:30",
       "status": "confirmed",
-      "price": 120.0
+      "price": 280.0
     },
     {
       "id": "3",
       "client_name": "Fernanda Souza",
-      "service": "Banho de gel",
+      "service": "Limpeza interna e troca de pasta térmica",
       "date": "2025-09-01",
       "time": "13:00",
       "status": "pending",
-      "price": 90.0
+      "price": 120.0
     },
     {
       "id": "4",
       "client_name": "Juliana Costa",
-      "service": "Spa das mãos + Nail art",
+      "service": "Upgrade de memória RAM",
       "date": "2025-09-01",
       "time": "15:00",
       "status": "cancelled",
-      "price": 150.0
+      "price": 220.0
     },
     {
       "id": "5",
       "client_name": "Carla Mendes",
-      "service": "Manicure completa",
+      "service": "Montagem de computador gamer",
       "date": "2025-09-02",
       "time": "09:30",
       "status": "confirmed",
-      "price": 70.0
+      "price": 350.0
     },
     {
       "id": "6",
       "client_name": "Beatriz Lima",
-      "service": "Esmaltação artística",
+      "service": "Diagnóstico de placa-mãe",
       "date": "2025-09-02",
       "time": "11:00",
       "status": "pending",
-      "price": 80.0
+      "price": 90.0
     },
     {
       "id": "7",
       "client_name": "Patrícia Gomes",
-      "service": "Blindagem de unhas",
+      "service": "Troca de fonte ATX",
       "date": "2025-09-02",
       "time": "14:00",
-      "status": "confirmed",
-      "price": 100.0
-    },
-    {
-      "id": "8",
-      "client_name": "Larissa Rocha",
-      "service": "Alongamento fibra de vidro",
-      "date": "2025-09-02",
-      "time": "16:30",
-      "status": "confirmed",
-      "price": 140.0
-    },
-    {
-      "id": "9",
-      "client_name": "Camila Ferreira",
-      "service": "Remoção de alongamento",
-      "date": "2025-09-03",
-      "time": "09:00",
-      "status": "pending",
-      "price": 60.0
-    },
-    {
-      "id": "10",
-      "client_name": "Isabela Martins",
-      "service": "Pedicure + Spa dos pés",
-      "date": "2025-09-03",
-      "time": "11:00",
-      "status": "confirmed",
-      "price": 110.0
-    },
-    {
-      "id": "11",
-      "client_name": "Renata Alves",
-      "service": "Banho de verniz",
-      "date": "2025-09-03",
-      "time": "14:00",
-      "status": "confirmed",
-      "price": 95.0
-    },
-    {
-      "id": "12",
-      "client_name": "Sofia Andrade",
-      "service": "Esmaltação em gel",
-      "date": "2025-09-04",
-      "time": "10:00",
-      "status": "cancelled",
-      "price": 85.0
-    },
-    {
-      "id": "13",
-      "client_name": "Paula Ribeiro",
-      "service": "Spa completo mãos e pés",
-      "date": "2025-09-04",
-      "time": "13:30",
       "status": "confirmed",
       "price": 180.0
     },
     {
+      "id": "8",
+      "client_name": "Larissa Rocha",
+      "service": "Instalação de placa de vídeo",
+      "date": "2025-09-02",
+      "time": "16:30",
+      "status": "confirmed",
+      "price": 200.0
+    },
+    {
+      "id": "9",
+      "client_name": "Camila Ferreira",
+      "service": "Recuperação de dados em HD",
+      "date": "2025-09-03",
+      "time": "09:00",
+      "status": "pending",
+      "price": 450.0
+    },
+    {
+      "id": "10",
+      "client_name": "Isabela Martins",
+      "service": "Configuração de rede Wi-Fi e roteador",
+      "date": "2025-09-03",
+      "time": "11:00",
+      "status": "confirmed",
+      "price": 130.0
+    },
+    {
+      "id": "11",
+      "client_name": "Renata Alves",
+      "service": "Manutenção preventiva notebook",
+      "date": "2025-09-03",
+      "time": "14:00",
+      "status": "confirmed",
+      "price": 170.0
+    },
+    {
+      "id": "12",
+      "client_name": "Sofia Andrade",
+      "service": "Troca de tela de notebook",
+      "date": "2025-09-04",
+      "time": "10:00",
+      "status": "cancelled",
+      "price": 600.0
+    },
+    {
+      "id": "13",
+      "client_name": "Paula Ribeiro",
+      "service": "Instalação de impressora e drivers",
+      "date": "2025-09-04",
+      "time": "13:30",
+      "status": "confirmed",
+      "price": 100.0
+    },
+    {
       "id": "14",
       "client_name": "Tatiane Souza",
-      "service": "Nail art personalizada",
+      "service": "Suporte remoto e otimização de sistema",
       "date": "2025-09-04",
       "time": "16:00",
       "status": "pending",
-      "price": 130.0
+      "price": 80.0
     },
     {
       "id": "15",
       "client_name": "Viviane Carvalho",
-      "service": "Unhas postiças decoradas",
+      "service": "Troca de cooler e limpeza completa",
       "date": "2025-09-05",
       "time": "09:30",
       "status": "confirmed",
-      "price": 75.0
+      "price": 160.0
     }
   ]
 }
